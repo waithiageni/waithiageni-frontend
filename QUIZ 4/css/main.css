@@ -5,7 +5,7 @@ body{
 header{
 	background-color:rgb(235,159,51);
 	height: 50px;
-	padding-bottom: 20px;
+
 }
 
 .header-container{
@@ -14,13 +14,15 @@ header{
 
 
 }
+.header-container ul{
+	float: right;
+}
 .header-container ul li{
 	list-style: none;
-	float: right; 
-	padding-right: 5px;
+	float: left; 
 
 }
-.header-container ul li a p{
+.header-container ul li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	padding-left: 20px;
@@ -31,20 +33,46 @@ header{
 	font-size: 13px;
 
 }
-.paragraph{
-	font-size: 13px;
-	line-height: 2.0;
-}
+
 .main-content{
-	width:1200px;
+	width:1080px;
 	height:650px;
 	background-color:#ffffff; 
 	margin: 0 auto;
+	padding: 60px;
 	
 }
-.main-content img{
-	float:left;
-	padding-right: 40px;
+.content img{
+	float: left;
+	margin-right: 60px;
+	margin-bottom:60px; 
+}
+.content h1{
+	margin: 0 0 14px 0;
+	padding: 0;
+	color: orange;
+}
+.content h2{
+	margin: 0 0 20px 0;
+	padding: 0;
+	color: #505050;
+}
+
+.content p{
+	font-size: 13px;
+	line-height: 1.5em;
+}
+.classic{
+	float: left;
+}
+.irene2{
+	padding-left: 40px;
+
+
+
+}
+.irene3{
+	padding-left: 40px;
 
 }
 footer{

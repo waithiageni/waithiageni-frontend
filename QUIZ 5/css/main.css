@@ -1,0 +1,16 @@
+body{
+	background-color: #ccc;
+}
+.content{
+	width: 700px;
+	margin: 40px auto;
+
+}
+.content table{
+	width: 100%;
+	background-color: #fff;
+	text-align: left;
+	border: 1px solid #aaa;
+	border-collapse: collapse;
+   
+}

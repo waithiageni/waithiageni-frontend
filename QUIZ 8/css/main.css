@@ -1,0 +1,95 @@
+body{ 
+	background-color: #adadad;
+	font-family: arial;
+	color:#222;
+	/*background-image: url(../img/mount..png);*/
+	/*background-repeat: no-repeat;*/
+	
+}
+.login-cont{
+	max-width: 400px;
+	min-height: 300px;
+	margin:10% auto;
+
+}
+
+
+.login-cont h3{
+	margin:0 0 10px 5px;
+	color: #fff;
+}
+
+
+.login-cont form{
+	
+	padding:30px;
+	margin: 5px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.36);
+	
+	
+}
+
+.login-cont form ul{
+	padding:0px;
+	margin:0px;
+	
+	
+}
+
+.login-cont form ul li{
+	padding:0px;
+	margin:0px 0 10px 0;
+	list-style: none;
+	font: 50px;
+
+}
+.login-cont form ul li:last-child{
+	margin: 0px;
+}
+
+.login-cont form label{
+	display:block;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+
+.login-cont form input+label{
+	display: inline;
+	padding: 10px;
+
+}
+
+.login-cont form input[type=text],.login-cont form input[type=email],.login-cont form input[type=password]{
+	display:block;
+	width:328px;
+	border: 1px solid #ccc;
+	height:35px;
+	text-indent: 10px;
+	
+	border-radius: 5px;
+
+}
+.login-cont form select{
+	display: block;
+	width: 332px;
+	border: 1px solid #ccc;
+	height: 35px;
+	text-indent: 10px;
+
+}
+
+.login-cont form input[type=submit]{
+	width:330px;
+	background-color: #444;
+	color:#fff;
+	height:40px;
+	border:none;
+	border-radius: 5px;
+}
+.login-cont form input[type=radio]{
+	padding: 50px;
+}
+
+
+

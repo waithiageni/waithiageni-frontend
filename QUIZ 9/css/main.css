@@ -1,0 +1,21 @@
+body{
+	background-color: #ddd;
+	background-size: cover;
+	font-family: arial;
+	color: #222;
+}
+.maincont{
+	width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+}
+h1{
+	font-family: 'Sanchez', serif;
+}
+h3{
+	font-family: 'Antic Slab', serif;
+}
+p{
+	font-family: 'Scheherazade', serif;
+}
